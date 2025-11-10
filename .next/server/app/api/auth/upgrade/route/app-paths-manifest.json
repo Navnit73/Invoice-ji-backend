@@ -1,0 +1,3 @@
+{
+  "/api/auth/upgrade/route": "app/api/auth/upgrade/route.js"
+}

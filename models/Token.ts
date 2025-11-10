@@ -1,7 +1,7 @@
-import mongoose, { Document, Schema } from 'mongoose';
+import mongoose, { Document, Schema, Types } from 'mongoose';
 
 export interface IToken extends Document {
-  userId: mongoose.Types.ObjectId;
+  userId: Types.ObjectId;
   token: string;
   type: 'password_reset' | 'email_verification';
   expiresAt: Date;
